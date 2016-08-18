@@ -1,0 +1,65 @@
+.toh {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  position: relative;
+  border-bottom: 5px solid black;
+  float: left;
+  width: 280px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: pink;
+  list-style-type: none;
+  padding: 0;
+  padding-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+li {
+  position: relative;
+  height: 25px;
+  background: green;
+  bottom: 0;
+  margin-top: 10px;
+  display: block;
+}
+
+.disk1 {
+  width: 50px;
+  margin-top: 10px;
+  /*margin: 50px;
+  margin-top: 60px;*/
+}
+
+.disk2 {
+  width: 100px;
+    margin-top: 10px;
+  /*margin: 30px;*/
+}
+
+.disk3 {
+  width: 150px;
+    margin-top: 10px;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.0 {}
+
+.1 {}
+
+.2 {}
